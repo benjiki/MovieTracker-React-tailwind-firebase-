@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# MovieTracker-React-tailwind-firebase-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white)
 
-## Available Scripts
+## 📝 Description
 
-In the project directory, you can run:
+Dive into the world of cinema with MovieTracker, a dynamic web application built with React that brings a vast library of movies and series right to your fingertips. Leveraging the power of the Movie Database API, MovieTracker provides comprehensive details on your favorite films and shows. But it doesn't stop there! Built with a sleek, modern interface using Tailwind CSS, MovieTracker allows you to save the movies and series you love for future viewing. Never lose track of what you want to watch next – MovieTracker has you covered.
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🕸️ Web
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ React
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Key Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+@testing-library/jest-dom: ^5.17.0
+@testing-library/react: ^13.4.0
+@testing-library/user-event: ^13.5.0
+axios: ^1.6.8
+firebase: ^10.10.0
+react: ^18.2.0
+react-dom: ^18.2.0
+react-icons: ^5.0.1
+react-router-dom: ^6.22.3
+react-scripts: 5.0.1
+tailwind-scrollbar-hide: ^1.1.7
+web-vitals: ^2.1.4
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Run Commands
 
-### `npm run eject`
+- **start**: `npm run start`
+- **build**: `npm run build`
+- **test**: `npm run test`
+- **eject**: `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+.
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── Firebase.js
+│   ├── Requests.js
+│   ├── components
+│   │   ├── Main.jsx
+│   │   ├── Movie.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │   ├── Row.jsx
+│   │   ├── SavedShows.jsx
+│   │   └── SearchRow.jsx
+│   ├── context
+│   │   └── AuthContext.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── pages
+│   │   ├── Account.jsx
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   └── SignUp.jsx
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+└── tailwind.config.js
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Development Setup
 
-## Learn More
+### Node.js/JavaScript Setup
+1. Install Node.js (v18+ recommended)
+2. Install dependencies: `npm install` or `yarn install`
+3. Start development server: (Check scripts in `package.json`, e.g., `npm run dev`)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👥 Contributing
 
-### Code Splitting
+Contributions are welcome! Here's how you can help:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Fork** the repository
+2. **Clone** your fork: `git clone https://github.com/benjiki/MovieTracker-React-tailwind-firebase-.git`
+3. **Create** a new branch: `git checkout -b feature/your-feature`
+4. **Commit** your changes: `git commit -am 'Add some feature'`
+5. **Push** to your branch: `git push origin feature/your-feature`
+6. **Open** a pull request
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please ensure your code follows the project's style guidelines and includes tests where applicable.
